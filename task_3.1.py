@@ -40,15 +40,15 @@ for i in grid:
     print(i)
 
 #  2 Вариант 
-# nbr_co = int(input("number of columns : "))
-# nbr_li = int(input("number of lines: "))
-# grid = [[1]*nbr_co for i in range(nbr_li)]
+nbr_co = int(input("number of columns : "))
+nbr_li = int(input("number of lines: "))
+grid = [[1]*nbr_co for i in range(nbr_li)]
 
 
-# def affiche(grid):
-#     for i in range(nbr_li):
-#         print(grid[i])
+def affiche(grid):
+    for i in range(nbr_li):
+        print(grid[i])
 
-# for i in range(nbr_co):
-#     grid[i][i] = 1
-# affiche(grid)
+for i in range(nbr_co):
+    grid[i][i] = 1
+affiche(grid)
